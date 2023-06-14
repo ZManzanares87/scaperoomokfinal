@@ -1,0 +1,78 @@
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+
+}
+.escondido{
+    color: transparent;
+    margin-top: 350px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 400px;
+    animation-name: mover;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+a{
+    text-decoration: none;
+    cursor: default;
+    color: transparent;
+}
+
+.uno{
+    margin-top: 100px;
+    margin-left: 100px;
+    position: absolute;
+}
+.dos{
+    margin-top: 20px;
+    margin-left: 100px;
+    position: absolute;
+}
+.tres{
+    margin-top: 60px;
+    margin-left: 300px;
+    position: absolute;
+}
+.centrar{
+    display: flex;
+    justify-content: space-around;
+}
+.pista{
+    max-width: 500px;
+    
+}
+.centrar2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.contenedor{
+    max-width: 500px;
+}
+.abeja{
+    margin-top: 100px;
+    width: 50px;
+    animation-name: abeja;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes abeja {
+    0%{
+        transform: translate(200px);
+    }
+    50%{
+        transform: translateY(300px);
+    }
+    60%{
+        transform: translateZ(200px);
+        width: 100px;
+    }
+    100%{
+        transform: translateX(200px);
+    }
+    
+}
